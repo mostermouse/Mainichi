@@ -1,15 +1,14 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
-    }
-}
+/* sout + tab = println
+           so + tab = printf
+           실행 : ctrl + r
+          디버깅 : ctrl + d
+          커서가 가르키는 부분 리팩토링 : ctrl + t
+          이름 일괄 변경 : ctrl + f6
+          오버라이드 : ctrl + o
+          인터페이스 구현 : ctrl + i
+          구현 코드로 이동 : command + option + b
+          임포트 정리 : ctrl + option + o
+          게터 세터 자동 생성  :command + n
+          깃 커밋    :  command + k
+          커밋 후 푸시 : command + shif + k
+       * */
